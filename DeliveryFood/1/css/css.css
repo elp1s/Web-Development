@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    max-width: 1200px;
+    width: 100%;
+    margin:auto;
+
+}
+
+.block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-adress{
+    max-width: 690px;
+    width: 100%;
+    padding: 8px 12px 8px 32px;
+    background: url(../img/home.svg) no-repeat 10px center;
+}
+
+.input{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    outline: none;
+}
+
+.selection__header{
+    margin-top: 44px;
+    margin-bottom: 40px;
+}
+
+.logo{
+    max-height: 40px;
+}
+
+.logo__img{
+    max-height: 40px;
+}
+
+.input-adress::placeholder{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #BFBFBF;
+}
+
+.button{
+    padding: 8px 19px 8px 33px;
+    border: none;
+    border-radius: 2px;
+    margin-left: 9px;
+}
+
+.button__man{
+    background: url(../img/people.svg) no-repeat 16px center;
+}
+
+.button--primary{
+    background-color: #1890FF;
+    color: #FFF;
+    border: 1px solid #1890FF;
+}
+
+.button__cart{
+    background: url(../img/Vector.svg) no-repeat 16px center;
+}
+
+.button__secondary{
+    border: 1px solid #D9D9D9;
+}
